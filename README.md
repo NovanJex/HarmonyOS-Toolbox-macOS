@@ -90,8 +90,7 @@ HarmonyOS-Toolbox-macOS/
 ├── adb                          # Google 官方 macOS 通用版 ADB（原生支持 Apple Silicon M1~M4 及 Intel）
 ├── lib64/
 │   └── libc++.dylib             # 官方 ADB 配套 C++ 动态库
-├── 遇到问题请看.txt             # 常见问题排查指南（UTF-8 编码）
-└── 必读.pdf                     # 原版历史更新日志与注意事项
+└── 遇到问题请看.txt             # macOS 常见问题排查指南（UTF-8 编码）
 ```
 
 ---
