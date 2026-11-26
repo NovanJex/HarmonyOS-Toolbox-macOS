@@ -1,4 +1,4 @@
-# HarmonyOSTools-macOS（鸿蒙/EMUI 工具箱 macOS 原生移植版）
+# HarmonyOS-Toolbox-macOS（鸿蒙/EMUI 工具箱 macOS 原生移植版）
 
 > **致谢与防倒卖声明**
 > * **原作者**：哔哩哔哩 UP 主 **[@一只靓仔琦](https://www.bilibili.com/video/BV1yF411E7c8)**（原版更新时间：`2022.08.06`）
@@ -64,8 +64,8 @@
 
 #### 方式一：通过 `git clone` 下载（推荐，自动保留执行权限）
 ```bash
-git clone https://github.com/NovanJex/HarmonyOSTools-macOS.git
-cd HarmonyOSTools-macOS
+git clone https://github.com/NovanJex/HarmonyOS-Toolbox-macOS.git
+cd HarmonyOS-Toolbox-macOS
 ./启动鸿蒙工具箱.command
 ```
 或者直接在 Finder（访达）中双击 **`启动鸿蒙工具箱.command`** 即可自动打开 Mac「终端」运行。
@@ -73,7 +73,7 @@ cd HarmonyOSTools-macOS
 #### 方式二：直接下载 ZIP 压缩包或从 U 盘拷贝
 如果从网页直接下载 ZIP 或通过 Windows U 盘拷贝到 Mac，首次双击可能会提示“没有权限打开”或安全拦截。只需打开 Mac「终端 (Terminal)」，进入本文件夹执行一次以下命令赋予权限并移除苹果隔离属性：
 ```bash
-cd /path/to/HarmonyOSTools-macOS
+cd /path/to/HarmonyOS-Toolbox-macOS
 chmod +x *.command adb
 xattr -cr .
 ```
@@ -84,7 +84,7 @@ xattr -cr .
 ## 五、 目录结构说明
 
 ```text
-HarmonyOSTools-macOS/
+HarmonyOS-Toolbox-macOS/
 ├── 启动鸿蒙工具箱.command       # 主程序启动脚本（macOS 双击运行）
 ├── 工具箱无效运行这个.command   # ADB 服务异常重置修复脚本（macOS 双击运行）
 ├── adb                          # Google 官方 macOS 通用版 ADB（原生支持 Apple Silicon M1~M4 及 Intel）
